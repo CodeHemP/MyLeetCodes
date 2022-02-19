@@ -1,0 +1,25 @@
+
+print('Hi this is code for LC question 'Two Sum')
+
+list1=[3,6,2,3,8]
+target=5
+
+leng1=len(list1)
+#print(leng1)
+
+for key1 in range(leng1):
+    #print('Current key:', key1)
+    #print('Current value:', list1[key1])
+    for key2 in range(key1+1,leng1):
+        #print(key2)
+        if(list1[key1]+list1[key2]==target):
+            print('Target matched !')
+            print(key1, '  ', key2)
+            break
+        
+        
+
+
+
+    
+    
